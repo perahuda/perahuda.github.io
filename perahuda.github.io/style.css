@@ -1,0 +1,380 @@
+body {
+    font-family: 'Times New Roman';
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #ccc;
+    color: #9b9b9b;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+form, fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+input {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    height: 30px;
+}
+
+input:disabled {
+    opacity: 1;
+    color: #000;
+}
+
+textarea{
+    resize: none;
+    height: 120px;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 80px 0 40px;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.bttn {
+    background-color: #0271c7;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    -webkit-box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.6);
+    -webkit-transition: box-shadow 0.3s, text-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s, text-shadow 0.3s;
+    -o-transition: box-shadow 0.3s, text-shadow 0.3s;
+    transition: box-shadow 0.3s, text-shadow 0.3s;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+    font-size: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.bttn:hover {
+    text-shadow: none;
+    -webkit-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.6);
+}
+
+.bttn:active {
+    box-shadow: none;
+}
+
+.editEventsBlock {
+    float: left;
+}
+
+.editEventsBlock .bttn {
+    float: left;
+    width: 90px;
+}
+
+.editEventsBlock .bttn + .bttn {
+    margin-left: 10px;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+textarea, input {
+    padding: 0 10px;
+    width: 190px;
+    border: 1px solid #CCCCCC;
+    background-color: #fff;
+    -webkit-box-shadow: inset 4px 4px 7px -8px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 4px 4px 7px -8px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 4px 4px 7px -8px rgba(0, 0, 0, 0.6);
+    -webkit-transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+
+input + input{
+    margin-top: 5px;
+}
+
+input + textarea{
+    margin-top: 40px;
+}
+
+.searchBlock input {
+    float: right;
+    margin-left: 5px;
+}
+
+.searchBlock input:focus {
+    -webkit-box-shadow: inset 4px 7px 7px -8px rgba(0, 0, 0, 0);
+    -moz-box-shadow: inset 4px 7px 7px -8px rgba(0, 0, 0, 0);
+    box-shadow: inset 4px 7px 7px -8px rgba(0, 0, 0, 0);
+}
+
+.searchBlock {
+    float: right;
+}
+
+.cfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.clickSearch {
+    height: 30px;
+    background-image: url(img/icon-search.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 30px;
+    float: left;
+    opacity: 0.4;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.clickSearch:hover {
+    opacity: 1;
+}
+
+.monthBlock {
+    padding: 20px 0;
+}
+
+.choicingMonth {
+    display: table;
+    font-size: 22px;
+    text-align: center;
+}
+
+.month {
+    display: table;
+    position: relative;
+    padding: 0 25px;
+    float: left;
+}
+
+.month [class*="arrow"], .choicingDate {
+    border: 1px solid #CCCCCC;
+    -webkit-box-shadow: inset 2px 2px 4px -5px rgba(0, 0, 0, 0.6), inset -2px -2px 4px -5px rgba(0, 0, 0, 0.6);;
+    -moz-box-shadow: inset 2px 2px 4px -5px rgba(0, 0, 0, 0.6), inset -2px -2px 4px -5px rgba(0, 0, 0, 0.6);;
+    box-shadow: inset 2px 2px 4px -5px rgba(0, 0, 0, 0.6), inset -2px -2px 4px -5px rgba(0, 0, 0, 0.6);;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.choicingDate {
+    text-align: center;
+    display: table;
+    padding: 0 5px;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 3px 0 3px 15px;
+    float: left;
+    padding-bottom: 2px;
+    color: #717171;
+}
+
+.choicingDate > * {
+    display: table;
+}
+
+.month [class*="arrow"] {
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    margin-top: -10px;
+}
+
+.month [class*="arrow"]:before{
+    content:'';
+    display: block;
+    position: absolute;
+    border: 3px solid transparent;
+    top: 50%;
+    margin-top: -3px;
+}
+
+.month .arrowPrev:before{
+    border-right: 4px solid #000;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.month .arrowNext:before{
+    border-left: 4px solid #000;
+    right: 50%;
+    margin-right: -5px;
+}
+
+.month .arrowPrev {
+    left: 0;
+}
+
+.month .arrowNext {
+    right: 0;
+}
+
+#calendarBody {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#calendarBody td {
+    position: relative;
+    width: calc(100% / 7);
+    height: calc(1200px / 7);
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s, box-shadow 0.3s;
+    -moz-transition: background-color 0.3s, box-shadow 0.3s;
+    -o-transition: background-color 0.3s, box-shadow 0.3s;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    -webkit-box-shadow: inset 0px 0px 0px 2px transparent;
+    -moz-box-shadow: inset 0px 0px 0px 2px transparent;
+    box-shadow: inset 0px 0px 0px 2px transparent;
+}
+
+#calendarBody .today{
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #717171;
+}
+
+#calendarBody .activeEvent{
+    background-color: #c2e4fe;
+}
+
+#calendarBody td:hover,#calendarBody td.active{
+    background-color: #c2e4fe;
+    -webkit-box-shadow: inset 0px 0px 0px 1px #89c0ec;
+    -moz-box-shadow: inset 0px 0px 0px 1px #89c0ec;
+    box-shadow: inset 0px 0px 0px 1px #89c0ec;
+}
+
+#calendarBody td form{
+    display: block;
+    position: absolute;
+    left: 100%;
+    margin-left: 11px;
+    top: -25px;
+    z-index: 2;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    cursor: default;
+}
+
+#calendarBody td form:after{
+    content:'';
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    z-index: -1;
+    right: 100%;
+    margin-right: -6px;
+    top: 35px;
+    width: 12px;
+    height: 12px;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#calendarBody td form:before{
+    content:'';
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#calendarBody td form .in{
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Календарь</title>
+
+    <link rel='stylesheet' type='text/css' href='style.css'>
+
+    <script type='text/javascript' src='script.js'></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="cfix">
+                <form>
+                    <fieldset class="editEventsBlock">
+                        <button class="bttn addEvent">Добавить</button>
+                        <button class="bttn refreshEvent">Обновить</button>
+                    </fieldset>
+                    <fieldset class="searchBlock">
+                        <button class="clickSearch"></button>
+                        <span class="icon"></span>
+                        <input type="text" placeholder="Событие, дата или участник">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section class="content">
+        <div class="container">
+            <div class="calendar">
+                <div class="monthBlock cfix">
+                    <div class="month">
+                        <button class="arrowPrev" id="prevMonth"></button>
+                        <span class="choicingMonth" id="choicingMonth">Март 2013</span>
+                        <button class="arrowNext" id="nextMonth"></button>
+                    </div>
+                    <div class="choicingDate">
+                        <span>Сегодня</span>
+                    </div>
+                </div>
+                <div class="gridCalendar">
+                    <table id='calendarBody'></table>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
